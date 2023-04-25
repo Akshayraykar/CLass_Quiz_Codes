@@ -1,8 +1,15 @@
 class Core2Web{
 	public static void main(String[]args){
 
-		int var1[] = {1,2,3,4};
+	float[] arrFloat = new float[5];
 
-		System.out.println(var1.length);
+	for(int i=0; i<10; i++){
+
+		arrFloat[i] = i + i;
+
+		System.out.println(arrFloat[3]);
+
+
+	}
 	}
 }

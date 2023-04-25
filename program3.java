@@ -1,11 +1,9 @@
-class Core2Web{
+class Boolean{
 
 	public static void main(String[]args){
 
-		int var1[] = new int[2];
-		var1[0] = 0;
-		var1[1] = 1;
+		boolean arr[] = {true , false};
 
-		System.out.println(var1[0] + " " + var1[1] + " " + var1.length);
+		System.out.println(arr[1]);
 	}
 }

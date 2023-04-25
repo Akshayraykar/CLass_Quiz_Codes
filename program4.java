@@ -1,8 +1,9 @@
-class Core2Web{
+class ShortDemo{
+
 	public static void main(String[]args){
 
-		int var1[] = new int[]{1,2,3};
+		short[] arrShort = new short[]{4,3,2,1,};
 
-		System.out.println(var1.length);
+		System.out.println(arrShort[2]);
 	}
 }

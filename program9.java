@@ -1,13 +1,11 @@
-class Akshay{
+class Double{
+
 	public static void main(String[]args){
 
-		int [] var1 = new int[5];
-		var1[2] = 1;
-		var1[3] = 2;
-		var1[4] = 3;
+		double arr[] = {12d, 13d, 14d, 15d};
 
-		for(int var2=0; var2<var1.length; var2++){
-			System.out.println(var1[var2]);
+		for(double var : arr){
+			System.out.println(arr.length);
 		}
 	}
 }

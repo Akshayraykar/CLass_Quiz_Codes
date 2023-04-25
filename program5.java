@@ -1,14 +1,15 @@
-class Core2Web{
+class C2W{
 
 	public static void main(String[]args){
 
-		
-               int arr[] =new int[]{1,2,3,4};
+		int arrInt[];
 
-		for(int i=0; i<arr.length; i++){
+		arrInt = new int[4];
+		arrInt[2] = 420;
 
-			System.out.println(arr[i] + " ");
+		for(int itr : arrInt){
+
+			System.out.println(itr);
 		}
 	}
 }
-

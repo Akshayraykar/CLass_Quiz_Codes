@@ -1,11 +1,9 @@
-class Akshay{
+class Variable{
 
 	public static void main(String[]args){
 
-		int[] var1 = new int[5];
+		float arr[] = {9.15f, 3.14f};
 
-		for(int var2 =0; var2<var1.length; var2++){
-			System.out.println(var1[var2]);
-		}
+		System.out.println(arr.length);
 	}
 }
